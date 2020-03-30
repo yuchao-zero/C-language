@@ -18,14 +18,13 @@ int main(){
 }
 
 int max(int a, int b, int c){
-    int ret;
-    if(a>b&&a>c)
-        ret=a;
-    else if (b>a&&b>c)
-        ret=b;
-    else if (c>a&&c>b)
-        ret=c;
+    int ret=a;
     
+    if(b>ret)
+        ret=b;
+    if(c>ret)
+        ret=c;
+
     return ret;
 }
 #endif
