@@ -23,6 +23,7 @@ int main ()
             printf("\n");
         }
     }
+    printf("\n纵向分布：\n\n");
     
     for (i = 0; i < 100; i++) {
         bunpu[a[i] / 10]++;
